@@ -3,6 +3,7 @@ In order to start generating samples,
 
 1. Download a model size (choose 117M, 345M, 774M, 1558M [which may be too large to run for some computers])
 > python3 download_model.py 117M
+
 Or run download_model.py but change the variable "model"
 
 2. Change interactive_conditional_samples.py parameters
@@ -13,6 +14,7 @@ Or run download_model.py but change the variable "model"
 3. Run interactive_conditional_samples.py
 You can run it from the root directory like
 > python3 src/interactive_conditional_samples.py
+
 Or, you can change the directory variable at the bottom of the file
 ![Directory Variable](images/changeDirectory.png)
 
